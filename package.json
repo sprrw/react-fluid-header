@@ -2,14 +2,22 @@
   "name": "react-fluid-header",
   "version": "1.0.0",
   "description": "Hero image header React component for fluid layouts",
-  "main": "index.js",
-  "keywords": ["react", "hero image", "header"],
+  "main": "index.jsx",
+  "keywords": [
+    "react",
+    "hero image",
+    "header"
+  ],
   "author": {
     "name": "Vasiliy Ragozin"
   },
   "license": "MIT",
   "peerDependencies": {
     "react": ">0.14.5",
-    "react-dom": ">0.14.5"
+    "reactDOM": ">0.14.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
