@@ -4,6 +4,12 @@ Hero image header React component for fluid layouts
 ## What it does?
 This component makes it easy to set up a hero image as header background by pushing the image source and anchoring positions through the props and setting up style attribute appropriately. This allows to create fluid layouts with cover hero image, which has a unique background position specific for this image, allowing to control the position of the central image feature on the screen.
 
+## Installation
+
+```Shell
+npm i -S react-fluid-header
+```
+
 ## Required CSS support code
 CSS properties set up on the component are the following:
 
