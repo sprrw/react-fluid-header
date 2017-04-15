@@ -1,6 +1,6 @@
 {
   "name": "react-fluid-header",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hero image header React component for fluid layouts",
   "main": "index.jsx",
   "keywords": [

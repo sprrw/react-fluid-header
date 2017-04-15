@@ -10,14 +10,14 @@ class Header extends React.Component {
     }
   }
   
-  createStyle(props) {
-    return `background-position:${props.anchorX} ${props.anchorY};
-      background-image:url(${props.src})`;
+  createStyle() {
+    return `background-position:${this.props.anchorX} ${this.props.anchorY};
+      background-image:url(${this.props.src})`;
   }
   
   render() {
     return (
-      <header style={ createStyle(props) }>
+      <header style={ this.createStyle() }>
         { props.children }
       </header>
     );
